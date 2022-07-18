@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(227, 198, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    border-top: 10px solid blue;
+}
+
+.container h2 {
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+    font-size: 33px;
+    text-align: left;
+    margin-left: 38px;
+    margin-right: 38px;
+    font-weight: lighter;
+}
+
+.form-instruction p {
+    text-align: left;
+    margin-left: 38px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    margin-top: -3px;
+}
+
+.container hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#switch-account p {
+    text-align: left;
+    margin-left: 38px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#switch-account span {
+    color: blue;
+    font-weight: lighter;   
+}
+
+#switch-account span a{
+    text-decoration: none;
+}
+
+#icon {
+    color: blue;
+}
+
+#icon, p {
+    text-align: left;
+    margin-left: 38px;
+    margin-top: 52px;
+}
+
+.email {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 135px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#email {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 32px;
+}
+
+#inputOne {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputOne input[type=text] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.fullName {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 135px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#fullName {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 32px;
+}
+
+#inputTwo {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputTwo input[type=text] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.phoneNumber {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 135px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#phoneNumber {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 32px;
+}
+
+#inputThree {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputThree input[type=number] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+#asterisk {
+    color: rgb(223, 4, 4);
+}
+
+input {
+    width: 300px; 
+}
+
+.nextOfKin {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#nextOfKin {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 32px;
+    margin-bottom: 0px;
+}
+
+#textOne p{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+#inputFour {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputFour input[type=text] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.firstTag {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 180px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#firstTag {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 32px;
+    margin-bottom: 0px;
+}
+
+#inputFive {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputFive input[type=radio] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 28px;
+}
+
+.secondTag {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#secondTag {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputSix {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputSix input[type=radio] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 28px;
+}
+
+.location {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 135px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#location {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputSeven {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputSeven input[type=text] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.thirdTag {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 135px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#thirdTag {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputEight {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+} 
+
+#inputEight input[type=text] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.forthTag {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 135px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#forthTag {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputNine {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputNine input[type=text] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.fifthTag {
+    background-color: white;
+    margin: 15px auto;
+    width: 400px;
+    height: 135px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#fifthTag {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputTen {
+    text-align: left;
+    margin-left: 38px;
+    padding-top: 25px;
+}
+
+#inputTen input[type=text] {
+    padding: 5px 0;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.notice {
+    text-align: center;
+}
+
+.notice p {
+    margin: 30px auto;
+    width: 350px;
+}
+
+.pages {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.pages #pages {
+    background-color: green;
+    border-radius: 15px;
+    height: 9px;
+    width: 190px;
+}
+
+#pageNum {
+    padding-left: 15px;
+    margin-left: 5px;  
+}
+
+.submit {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+     
+}
+
+#line input[type=submit]  {
+    border-radius: 6px;
+    height: 33px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    letter-spacing: 1px;
+    margin: 5px 10px;
+    border: none;
+    margin-right: 90px;
+}
+
+#lines {
+    padding-left: 15px;
+    margin-left: 5px; 
+}
+
+#lines p {
+    margin-top: 13px;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 90px;
+}
+
+#line, #lines, p {
+    margin-top: inherit;
+}
+
+.last {
+    margin: 15px auto;
+    width: 400px;
+    height: 135px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.last p {
+    text-align: left;
+    margin-left: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
